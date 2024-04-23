@@ -33,6 +33,6 @@ class ProductListTableViewCell: UITableViewCell {
         product_ThumbNailImg.clipsToBounds = true
         let url = URL(string: product.thumbnail)!
         // let placeholderImage = UIImage(named: "placeholder")!
-        product_ThumbNailImg.af_setImage(withURL: url)
+        product_ThumbNailImg.af.setImage(withURL: url)
     }
 }

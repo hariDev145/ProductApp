@@ -19,7 +19,7 @@ class ProductDetailInteractor: PresenterToInteractorProductDetailProtocol {
     
     func loadImageWith(imageURL:String,imgView:UIImageView) {
         if let url = URL(string: imageURL){
-            imgView.af_setImage(withURL: url)
+            imgView.af.setImage(withURL: url)
         }
     }
     
