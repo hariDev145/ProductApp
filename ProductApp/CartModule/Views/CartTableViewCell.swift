@@ -32,7 +32,7 @@ class CartTableViewCell: UITableViewCell {
         cartProduct_ThumbNailImg.clipsToBounds = true
         let url = URL(string: product.thumbnail)!
         // let placeholderImage = UIImage(named: "placeholder")!
-        cartProduct_ThumbNailImg.af_setImage(withURL: url)
+        cartProduct_ThumbNailImg.af.setImage(withURL: url)
     }
     
 }
